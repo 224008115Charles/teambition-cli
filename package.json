@@ -1,0 +1,41 @@
+{
+  "name": "teambition-cli",
+  "version": "0.0.1",
+  "description": "Teambition visualized cli for building web-app",
+  "main": "main.js",
+  "bin": {
+    "teambition-cli": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [
+    "cli",
+    "react",
+    "typescript"
+  ],
+  "author": "coldfannn",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0",
+    "inquirer": "^6.2.0",
+    "minimist": "^1.2.0",
+    "ora": "^3.0.0",
+    "progress": "^2.0.0",
+    "shelljs": "^0.8.2"
+  },
+  "devDependencies": {
+    "@teambition/clarity-design": "^1.1.7",
+    "download-git-repo": "^1.1.0",
+    "electron": "^3.0.4",
+    "glob": "^7.1.3",
+    "handlebars": "^4.0.12",
+    "latest-version": "^4.0.0",
+    "log-symbols": "^2.2.0",
+    "metalsmith": "^2.3.0",
+    "tb-icons": "^0.2.94"
+  }
+}
