@@ -4,7 +4,7 @@
 
 const program = require('commander')
 program.version('0.0.1')
-	.usage('<cli> [project-name]')
-	.command('test', 'this will run cli-test.js')
-	.command('init', 'this will run cli-init.js')
+	.usage('<command> [project-name]')
+	.command('test', 'this will run teambition-cli-test.js')
+	.command('init', 'this will run teambition-cli-init.js')
 	.parse(process.argv)
