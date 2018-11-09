@@ -91,11 +91,9 @@ function go() {
             default: `A project named ${context.name}`,
           },
           {
-            name: 'webpack',
-            message: 'Webpack 4 or 3?',
-            type: 'list',
-            default: '4',
-            choices: ['4', '3'],
+            name: 'projectAuthor',
+            message: 'author',
+            default: `teambition`,
           },
           {
             name: 'router',
@@ -110,12 +108,12 @@ function go() {
             default: `None`,
             choices: ['None', 'Redux', 'Mobx'],
           },
-          {
-            name: 'stylus',
-            message: 'Enable Stylus?',
-            type: 'confirm',
-            default: true,
-          },
+          // {
+          //   name: 'stylus',
+          //   message: 'Enable Stylus?',
+          //   type: 'confirm',
+          //   default: true,
+          // },
           {
             name: 'test',
             message: 'Enable Test?',
