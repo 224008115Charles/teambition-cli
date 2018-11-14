@@ -1,6 +1,6 @@
 {
   "name": "teambition-cli",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Teambition visualized cli for building web-app",
   "main": "main.js",
   "bin": {
